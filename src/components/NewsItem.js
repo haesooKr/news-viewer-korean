@@ -12,23 +12,23 @@ const NewsItemBlock = styled.div`
       height: 100px;
       object-fit: cover;
     }
-    .contents {
-      h2 {
-        margin: 0;
-        a {
-          color: black;
-        }
-      }
-      p {
-        margin: 0;
-        line-height: 1.5;
-        margin-top: 0.5rem;
-        white-space: normal;
+  }
+  .contents {
+    h2 {
+      margin: 0;
+      a {
+        color: black;
       }
     }
-    & + & {
-      margin-top: 3rem;
+    p {
+      margin: 0;
+      line-height: 1.5;
+      margin-top: 0.5rem;
+      white-space: normal;
     }
+  }
+  & + & {
+    margin-top: 3rem;
   }
 `;
 
